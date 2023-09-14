@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #bcc8cb;
+    
+}
+
+
+.logo {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.listanav {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    height: 100px;
+    margin-top: 30px;
+
+}
+
+.descripcion {
+    text-align: center;
+    
+}
+
+.fotosinicio {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #dee3e5;
+}
+.fotosinicio img {
+    width: 600px;
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.marcas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    background-color: #dee3e5;
+
+}
+
+.logomarcas img {
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    gap: 100px; 
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.redes img {
+    width: 50px;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.mapa {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #dee3e5;
+}
+
+.mapagoogle iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.productospvc {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productospvc img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.listapvc {
+    list-style-position: inside;
+}
+
+.productospp {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productospp img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+
+.productospe {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productospe img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.productoshg {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productoshg img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.productosff {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    list-style-position: inside;
+    
+}
+
+.productosff img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.productosher {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productosher img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.clientes {
+    margin: 50px;
+    background-color: #dee3e5 ;
+    list-style-position: inside;
+    text-align: center;
+    
+    
+}
+
+.quienes {
+    margin: 50px;
+    background-color: #dee3e5 ;
+
+}
+
+.quienes img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
