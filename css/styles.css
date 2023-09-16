@@ -3,54 +3,46 @@
     padding: 0;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #bcc8cb;
     
 }
 
-
 .logo {
-    width: 150px;
+    width: 300px;
     margin: 0 auto;
-    display: block;
-}
-
-h1 {
-    text-align: center;
-}
-
-.listanav {
-    list-style: none;
     display: flex;
-    gap: 70px;
-    justify-content: center;
-    height: 100px;
-    margin-top: 30px;
-
 }
 
+.conec {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container {  
+    justify-content: center;
+}
 .descripcion {
     text-align: center;
-    
+    margin-top: 50px;
 }
 
-.fotosinicio {
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    background-color: #dee3e5;
-}
-.fotosinicio img {
-    width: 600px;
-    height: 400px;
+#carouselExampleIndicators {
+    width: 50% ;
+    margin: 0 auto;
 }
 
-h2 {
+.carusel-inner img {
+    height: 100px;
+}
+
+.esf {
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.listamarcas{
     margin-top: 50px;
 }
 
