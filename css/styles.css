@@ -30,6 +30,7 @@ body {
 #carouselExampleIndicators {
     width: 50% ;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .carusel-inner img {
@@ -43,9 +44,9 @@ body {
 }
 
 .listamarcas{
-    margin-top: 50px;
-}
+    text-align: center;
 
+}
 .marcas {
     display: flex;
     gap: 10px;
@@ -55,23 +56,34 @@ body {
     text-align: center;
     align-content: center;
     background-color: #dee3e5;
-
+    margin-top: 30px;
 }
-
 .logomarcas img {
     width: 200px;
 }
 
-.footer {
-    display: flex;
-    gap: 100px; 
-    background-color: #ffffff;
-    margin-top: 30px;
+i {
+    font-size: 50px;
+}
+#footer {
+    display: grid;
+    grid-template-areas: 
+        "derechos redes"
+        "derechos redes";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% auto 15%;
+    justify-items: stretch ;
+    align-items: stretch;
 }
 
-.redes img {
-    width: 50px;
+.derechosf {
+    grid-area: derechos;
+    
 }
+.redesf {
+    grid-area: redes;
+}
+
 
 header {
     background-color: #ffffff;
