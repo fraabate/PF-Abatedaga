@@ -106,6 +106,13 @@ body {
     margin-bottom: 30px;
 }
 
+@media (max-width: 375px) {
+    .logomarcas img {
+        width: 100px;
+    }
+
+}
+
 i {
     font-size: 50px;
 }
