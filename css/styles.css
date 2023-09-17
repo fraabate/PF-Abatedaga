@@ -29,14 +29,54 @@ body {
 }
 
 #carouselExampleIndicators {
-    width: 50% ;
+    width: 60% ;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
-.carusel-inner img {
-    height: 100px;
+.carousel-item img {
+    height: 800px;
 }
+
+@media (max-width: 1440px) {
+    #carouselExampleIndicators {
+        width: 70% ;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .carousel-item img {
+        height: 600px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    #carouselExampleIndicators {
+        width: 80% ;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .carousel-item img {
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    #carouselExampleIndicators {
+        width: 90% ;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .carousel-item img {
+        height: 200px;
+    }
+
+}
+
 
 .esf {
     text-align: center;
@@ -103,7 +143,7 @@ header {
     row-gap: 20px;
     justify-items: center;
     margin-top: 40px;
-    
+
 }
 
 @media (max-width: 768px) {
