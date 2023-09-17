@@ -5,7 +5,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #bcc8cb;
+    background-image: url(../img/fondocone.png);
+    background-repeat: repeat;
     
 }
 
@@ -41,11 +42,12 @@ body {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    background-color: #f8f8f8;
 }
 
 .listamarcas{
     text-align: center;
-
+    background-color: #f8f8f8;
 }
 .marcas {
     display: flex;
@@ -55,11 +57,13 @@ body {
     flex-wrap: wrap;
     text-align: center;
     align-content: center;
-    background-color: #dee3e5;
+    background-color: #f8f8f8;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .logomarcas img {
     width: 200px;
+    margin-bottom: 30px;
 }
 
 i {
@@ -72,8 +76,7 @@ i {
         "derechos redes";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20% auto 15%;
-    justify-items: stretch ;
-    align-items: stretch;
+    background-color: #f8f8f8;
 }
 
 .derechosf {
@@ -89,6 +92,62 @@ header {
     background-color: #ffffff;
 }
 
+#cards {
+    display: grid;
+    grid-template-areas: 
+    "cardpvc cardpp cardpe"
+    "cardhg cardff cardherr";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+    
+}
+
+@media (max-width: 768px) {
+    #cards {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        list-style: none;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        background-color: #f8f8f8;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.cardpvc {
+    grid-area: cardpvc;
+}
+
+.cardpp {
+    grid-area: cardpp;
+}
+
+.cardpe {
+    grid-area: cardpe;
+}
+
+.cardhg {
+    grid-area: cardhg;
+}
+
+.cardff {
+    grid-area: cardff;
+}
+
+.cardherr {
+    grid-area: cardherr;
+}
+
+.card {
+    background-color: #aaaaaa;
+}
 .mapa {
     text-align: center;
     margin-top: 30px;
