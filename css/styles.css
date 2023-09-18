@@ -10,6 +10,7 @@ body {
     
 }
 
+
 .logo {
     width: 300px;
     margin: 0 auto;
@@ -149,7 +150,7 @@ header {
     column-gap: 10px;
     row-gap: 20px;
     justify-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
 
 }
 
@@ -308,14 +309,33 @@ header {
     height: 300px;
 
 }
-
 .clientes {
-    margin: 50px;
-    background-color: #dee3e5 ;
-    list-style-position: inside;
+    background-color: #f8f8f8;
     text-align: center;
-    
-    
+    list-style: inside;
+
+}
+.cardclientes {
+    margin: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-top: 60px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 30px;
+    width: 60%;
+    justify-content: center;
+}
+
+.card-img {
+    justify-content: center;
+    align-items: center;
 }
 
 .quienes {
@@ -332,3 +352,4 @@ header {
     height: 300px;
 
 }
+
