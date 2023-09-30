@@ -3,13 +3,16 @@
     padding: 0;
 }
 
+header {
+    background-color: #ffffff;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-image: url(../img/fondocone.png);
     background-repeat: repeat;
     
 }
-
 
 .logo {
     width: 300px;
@@ -20,70 +23,62 @@ body {
 .conec {
     text-align: center;
     margin-bottom: 30px;
+    font-weight: bold;
 }
-.container {  
-    justify-content: center;
-}
-.descripcion {
-    text-align: center;
-    margin-top: 50px;
+
+.nav-link {
+    color: black;
+    font-size: 20px;
 }
 
 #carouselExampleIndicators {
-    width: 60% ;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    width: 85%;
 }
 
 .carousel-item img {
-    height: 800px;
+    height: 20vh;
 }
 
-@media (max-width: 1440px) {
-    #carouselExampleIndicators {
-        width: 70% ;
-        margin: 0 auto;
-        margin-bottom: 40px;
-    }
-    
+@media (min-width: 520px) {
     .carousel-item img {
-        height: 600px;
+        height: 30vh;
     }
-    
+
 }
 
-@media (max-width: 768px) {
-    #carouselExampleIndicators {
-        width: 80% ;
-        margin: 0 auto;
-        margin-bottom: 40px;
-    }
-    
+@media (min-width: 768px) {
     .carousel-item img {
-        height: 400px;
+        height: 50vh;
     }
 
 }
 
-@media (max-width: 375px) {
+@media (min-width: 1024px) {
+    .carousel-item img {
+        height: 55vh;
+    }
     #carouselExampleIndicators {
-        width: 90% ;
-        margin: 0 auto;
-        margin-bottom: 40px;
+        width: 70%;
     }
     
-    .carousel-item img {
-        height: 200px;
     }
 
-}
 
+
+@media (min-width: 1440px) {
+    .carousel-item img {
+        height: 65vh;
+    }
+    #carouselExampleIndicators {
+        width: 70%;
+    }
+    
+}
 
 .esf {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    background-color: #f8f8f8;
 }
 
 .listamarcas{
@@ -135,11 +130,6 @@ i {
     grid-area: redes;
 }
 
-
-header {
-    background-color: #ffffff;
-}
-
 #cards {
     display: grid;
     grid-template-areas: 
@@ -151,7 +141,7 @@ header {
     row-gap: 20px;
     justify-items: center;
     margin-top: 60px;
-
+    
 }
 
 @media (max-width: 768px) {
@@ -163,7 +153,6 @@ header {
         flex-wrap: wrap;
         text-align: center;
         align-content: center;
-        background-color: #f8f8f8;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -315,41 +304,34 @@ header {
     list-style: inside;
 
 }
+
+.card {
+    max-width: 100%;
+}
+
 .cardclientes {
-    margin: 50px;
-    background-color: #f8f8f8;
-    text-align: center;
-    margin-top: 60px;
-    width: 60%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .card {
     margin-top: 30px;
-    width: 60%;
-    justify-content: center;
+    width: 75%;
+    margin-bottom: 30px;
 }
 
-.card-img {
-    justify-content: center;
-    align-items: center;
-}
 
 .quienes {
     margin: 50px;
     background-color: #dee3e5 ;
-
+    text-align: center;
 }
 
 .quienes img {
-    width: 400px;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    height: 300px;
+    width: 100%;
 
 }
 
