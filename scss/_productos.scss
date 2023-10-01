@@ -1,0 +1,131 @@
+#cards {
+    display: grid;
+    grid-template-areas: 
+    "cardpvc cardpp cardpe"
+    "cardhg cardff cardherr";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    #cards {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        list-style: none;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.cardpvc {
+    grid-area: cardpvc;
+}
+
+.cardpp {
+    grid-area: cardpp;
+}
+
+.cardpe {
+    grid-area: cardpe;
+}
+
+.cardhg {
+    grid-area: cardhg;
+}
+
+.cardff {
+    grid-area: cardff;
+}
+
+.cardherr {
+    grid-area: cardherr;
+}
+
+.card {
+    background-color: #dee3e5;
+}
+
+.productospvc {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+        img {
+            height: 300px;
+            width: 400px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+        }
+}
+.listapvc {
+    list-style-position: inside;
+}
+.productospp {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+        img {
+            width: 400px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            height: 300px;
+        }
+}
+.productospe {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+        img {
+            width: 400px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            height: 300px;
+        }
+}
+.productoshg {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+        img {
+            width: 400px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            height: 300px;
+        }
+}
+.productosff {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    list-style-position: inside;
+        img {
+            width: 400px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            height: 300px;
+        }
+}
+.productosher {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+        img {
+            width: 400px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            height: 300px;
+        }
+}

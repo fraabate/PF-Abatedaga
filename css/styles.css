@@ -1,35 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #ffffff;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  background-image: url(../img/fondocone.png);
-  background-repeat: repeat;
-}
-
-.logo {
-  width: 300px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.conec {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-
-.nav-link {
-  color: black;
-  font-size: 20px;
-}
-
 #carouselExampleIndicators {
   width: 85%;
 }
@@ -102,22 +70,6 @@ i {
   font-size: 50px;
 }
 
-#footer {
-  display: grid;
-  grid-template-areas: "derechos redes" "derechos redes";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20% auto 15%;
-  background-color: #f8f8f8;
-}
-
-.derechosf {
-  grid-area: derechos;
-}
-
-.redesf {
-  grid-area: redes;
-}
-
 #cards {
   display: grid;
   grid-template-areas: "cardpvc cardpp cardpe" "cardhg cardff cardherr";
@@ -167,19 +119,7 @@ i {
 }
 
 .card {
-  background-color: #aaaaaa;
-}
-
-.mapa {
-  text-align: center;
-  margin-top: 30px;
   background-color: #dee3e5;
-}
-
-.mapagoogle iframe {
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
 }
 
 .productospvc {
@@ -187,7 +127,6 @@ i {
   list-style: none;
   background-color: #dee3e5;
 }
-
 .productospvc img {
   height: 300px;
   width: 400px;
@@ -205,7 +144,6 @@ i {
   list-style: none;
   background-color: #dee3e5;
 }
-
 .productospp img {
   width: 400px;
   position: relative;
@@ -219,7 +157,6 @@ i {
   list-style: none;
   background-color: #dee3e5;
 }
-
 .productospe img {
   width: 400px;
   position: relative;
@@ -233,7 +170,6 @@ i {
   list-style: none;
   background-color: #dee3e5;
 }
-
 .productoshg img {
   width: 400px;
   position: relative;
@@ -248,7 +184,6 @@ i {
   background-color: #dee3e5;
   list-style-position: inside;
 }
-
 .productosff img {
   width: 400px;
   position: relative;
@@ -262,7 +197,6 @@ i {
   list-style: none;
   background-color: #dee3e5;
 }
-
 .productosher img {
   width: 400px;
   position: relative;
@@ -271,14 +205,31 @@ i {
   height: 300px;
 }
 
+.mapa {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #dee3e5;
+}
+
+.mapagoogle iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.quienes {
+  margin: 50px;
+  background-color: #dee3e5;
+  text-align: center;
+}
+.quienes img {
+  width: 100%;
+}
+
 .clientes {
   background-color: #f8f8f8;
   text-align: center;
   list-style: inside;
-}
-
-.card {
-  max-width: 100%;
 }
 
 .cardclientes {
@@ -293,16 +244,55 @@ i {
   margin-top: 30px;
   width: 75%;
   margin-bottom: 30px;
+  max-width: 100%;
 }
 
-.quienes {
-  margin: 50px;
-  background-color: #dee3e5;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/fondocone.png);
+  background-repeat: repeat;
+}
+
+.logo {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.conec {
   text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
-.quienes img {
-  width: 100%;
+.nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+#footer {
+  display: grid;
+  grid-template-areas: "derechos redes" "derechos redes";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% auto 15%;
+  background-color: #f8f8f8;
+}
+
+.derechosf {
+  grid-area: derechos;
+}
+
+.redesf {
+  grid-area: redes;
 }
 
 /*# sourceMappingURL=styles.css.map */

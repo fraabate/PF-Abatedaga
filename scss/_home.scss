@@ -1,0 +1,81 @@
+#carouselExampleIndicators {
+    width: 85%;
+}
+
+.carousel-item img {
+    height: 20vh;
+}
+
+@media (min-width: 520px) {
+    .carousel-item img {
+        height: 30vh;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .carousel-item img {
+        height: 55vh;
+    }
+    #carouselExampleIndicators {
+        width: 70%;
+    }
+    
+    }
+
+
+
+@media (min-width: 1440px) {
+    .carousel-item img {
+        height: 65vh;
+    }
+    #carouselExampleIndicators {
+        width: 70%;
+    }
+    
+}
+
+.esf {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.listamarcas{
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.marcas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logomarcas img {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+    .logomarcas img {
+        width: 100px;
+    }
+
+}
+
+i {
+    font-size: 50px;
+}

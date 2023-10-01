@@ -1,0 +1,22 @@
+.clientes {
+    background-color: #f8f8f8;
+    text-align: center;
+    list-style: inside;
+
+}
+
+.cardclientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    margin-top: 30px;
+    width: 75%;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
