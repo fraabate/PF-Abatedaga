@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/fondocone.png);
+    background-repeat: repeat;
+    
+}
+
+.logo {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.conec {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+#carouselExampleIndicators {
+    width: 85%;
+}
+
+.carousel-item img {
+    height: 20vh;
+}
+
+@media (min-width: 520px) {
+    .carousel-item img {
+        height: 30vh;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .carousel-item img {
+        height: 55vh;
+    }
+    #carouselExampleIndicators {
+        width: 70%;
+    }
+    
+    }
+
+
+
+@media (min-width: 1440px) {
+    .carousel-item img {
+        height: 65vh;
+    }
+    #carouselExampleIndicators {
+        width: 70%;
+    }
+    
+}
+
+.esf {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.listamarcas{
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.marcas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logomarcas img {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+    .logomarcas img {
+        width: 100px;
+    }
+
+}
+
+i {
+    font-size: 50px;
+}
+#footer {
+    display: grid;
+    grid-template-areas: 
+        "derechos redes"
+        "derechos redes";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% auto 15%;
+    background-color: #f8f8f8;
+}
+
+.derechosf {
+    grid-area: derechos;
+    
+}
+.redesf {
+    grid-area: redes;
+}
+
+#cards {
+    display: grid;
+    grid-template-areas: 
+    "cardpvc cardpp cardpe"
+    "cardhg cardff cardherr";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    margin-top: 60px;
+    
+}
+
+@media (max-width: 768px) {
+    #cards {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        list-style: none;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.cardpvc {
+    grid-area: cardpvc;
+}
+
+.cardpp {
+    grid-area: cardpp;
+}
+
+.cardpe {
+    grid-area: cardpe;
+}
+
+.cardhg {
+    grid-area: cardhg;
+}
+
+.cardff {
+    grid-area: cardff;
+}
+
+.cardherr {
+    grid-area: cardherr;
+}
+
+.card {
+    background-color: #aaaaaa;
+}
+.mapa {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #dee3e5;
+}
+
+.mapagoogle iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.productospvc {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productospvc img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.listapvc {
+    list-style-position: inside;
+}
+
+.productospp {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productospp img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+
+.productospe {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productospe img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.productoshg {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productoshg img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.productosff {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    list-style-position: inside;
+    
+}
+
+.productosff img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.productosher {
+    margin: 50px;
+    list-style: none;
+    background-color: #dee3e5;
+    
+}
+
+.productosher img {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+}
+.clientes {
+    background-color: #f8f8f8;
+    text-align: center;
+    list-style: inside;
+
+}
+
+.card {
+    max-width: 100%;
+}
+
+.cardclientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    margin-top: 30px;
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+
+.quienes {
+    margin: 50px;
+    background-color: #dee3e5 ;
+    text-align: center;
+}
+
+.quienes img {
+    width: 100%;
+
+}
+
