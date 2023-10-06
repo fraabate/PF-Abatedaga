@@ -1,3 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
 .clientes {
     background-color: #f8f8f8;
     text-align: center;
@@ -5,12 +11,10 @@
 
 }
 
-.cardclientes {
-    display: flex;
+.cardclientes { /*mixin*/
+    @include flex-center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .card {

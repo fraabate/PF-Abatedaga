@@ -1,3 +1,16 @@
+$color-secundario: #f8f8f8;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+@mixin rel-bl-a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
 #cards {
     display: grid;
     grid-template-areas: 
@@ -11,15 +24,12 @@
     margin-top: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*mixin*/
     #cards {
-        display: flex;
+        @include flex-center;
         gap: 10px;
-        justify-content: center;
         list-style: none;
         flex-wrap: wrap;
-        text-align: center;
-        align-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -50,19 +60,17 @@
 }
 
 .card {
-    background-color: #dee3e5;
+    background-color: $color-secundario;
 }
 
 .productospvc {
     margin: 50px;
     list-style: none;
-    background-color: #dee3e5;
+    background-color: $color-secundario;
         img {
             height: 300px;
             width: 400px;
-            position: relative;
-            display: block;
-            margin: 0 auto;
+            @include rel-bl-a;
         }
 }
 .listapvc {
@@ -71,7 +79,7 @@
 .productospp {
     margin: 50px;
     list-style: none;
-    background-color: #dee3e5;
+    background-color: $color-secundario;
         img {
             width: 400px;
             position: relative;
@@ -83,49 +91,41 @@
 .productospe {
     margin: 50px;
     list-style: none;
-    background-color: #dee3e5;
+    background-color: $color-secundario;
         img {
             width: 400px;
-            position: relative;
-            display: block;
-            margin: 0 auto;
             height: 300px;
+            @include rel-bl-a;
         }
 }
 .productoshg {
     margin: 50px;
     list-style: none;
-    background-color: #dee3e5;
+    background-color: $color-secundario;
         img {
             width: 400px;
-            position: relative;
-            display: block;
-            margin: 0 auto;
             height: 300px;
+            @include rel-bl-a;
         }
 }
 .productosff {
     margin: 50px;
     list-style: none;
-    background-color: #dee3e5;
+    background-color: $color-secundario;
     list-style-position: inside;
         img {
             width: 400px;
-            position: relative;
-            display: block;
-            margin: 0 auto;
             height: 300px;
+            @include rel-bl-a;
         }
 }
 .productosher {
     margin: 50px;
     list-style: none;
-    background-color: #dee3e5;
+    background-color: $color-secundario;
         img {
             width: 400px;
-            position: relative;
-            display: block;
-            margin: 0 auto;
             height: 300px;
+            @include rel-bl-a;
         }
 }

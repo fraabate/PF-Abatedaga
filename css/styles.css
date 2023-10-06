@@ -43,14 +43,14 @@
   background-color: #f8f8f8;
 }
 
-.marcas {
+.marcas { /*mixin*/
   display: flex;
-  gap: 10px;
   justify-content: center;
-  list-style: none;
-  flex-wrap: wrap;
   text-align: center;
   align-content: center;
+  gap: 10px;
+  list-style: none;
+  flex-wrap: wrap;
   background-color: #f8f8f8;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -81,15 +81,15 @@ i {
   margin-top: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*mixin*/
   #cards {
     display: flex;
-    gap: 10px;
     justify-content: center;
-    list-style: none;
-    flex-wrap: wrap;
     text-align: center;
     align-content: center;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -119,13 +119,13 @@ i {
 }
 
 .card {
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 
 .productospvc {
   margin: 50px;
   list-style: none;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 .productospvc img {
   height: 300px;
@@ -142,7 +142,7 @@ i {
 .productospp {
   margin: 50px;
   list-style: none;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 .productospp img {
   width: 400px;
@@ -155,71 +155,72 @@ i {
 .productospe {
   margin: 50px;
   list-style: none;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 .productospe img {
   width: 400px;
+  height: 300px;
   position: relative;
   display: block;
   margin: 0 auto;
-  height: 300px;
 }
 
 .productoshg {
   margin: 50px;
   list-style: none;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 .productoshg img {
   width: 400px;
+  height: 300px;
   position: relative;
   display: block;
   margin: 0 auto;
-  height: 300px;
 }
 
 .productosff {
   margin: 50px;
   list-style: none;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
   list-style-position: inside;
 }
 .productosff img {
   width: 400px;
+  height: 300px;
   position: relative;
   display: block;
   margin: 0 auto;
-  height: 300px;
 }
 
 .productosher {
   margin: 50px;
   list-style: none;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 .productosher img {
   width: 400px;
+  height: 300px;
   position: relative;
   display: block;
   margin: 0 auto;
-  height: 300px;
 }
 
 .mapa {
   text-align: center;
   margin-top: 30px;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
 }
 
 .mapagoogle iframe {
-  display: block;
+  display: flex;
+  width: 100%;
   margin: 0 auto;
   margin-top: 30px;
 }
 
 .quienes {
   margin: 50px;
-  background-color: #dee3e5;
+  background-color: #f8f8f8;
   text-align: center;
 }
 .quienes img {
@@ -232,12 +233,13 @@ i {
   list-style: inside;
 }
 
-.cardclientes {
+.cardclientes { /*mixin*/
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card {

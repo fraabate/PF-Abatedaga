@@ -1,3 +1,12 @@
+$color-secundario: #f8f8f8;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
 #carouselExampleIndicators {
     width: 85%;
 }
@@ -50,17 +59,14 @@
 
 .listamarcas{
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: $color-secundario;
 }
-.marcas {
-    display: flex;
+.marcas { /*mixin*/
+    @include flex-center;
     gap: 10px;
-    justify-content: center;
     list-style: none;
     flex-wrap: wrap;
-    text-align: center;
-    align-content: center;
-    background-color: #f8f8f8;
+    background-color: $color-secundario;
     margin-top: 30px;
     margin-bottom: 30px;
 }

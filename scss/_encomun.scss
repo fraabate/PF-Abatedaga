@@ -1,3 +1,5 @@
+$color-secundario: #f8f8f8;
+
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +40,7 @@ body {
         "derechos redes";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20% auto 15%;
-    background-color: #f8f8f8;
+    background-color: $color-secundario;
 }
 
 .derechosf {
